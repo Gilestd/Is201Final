@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+      body {
+          font-family: 'Arial', sans-serif;
+          color: #333;
+          margin: 0;
+          overflow-x: hidden;
+          background: #000;
+          background-image:
+              radial-gradient(circle at 0% 0%, rgba(255, 255, 255, 0.5), transparent 50%),
+              radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.5), transparent 50%),
+              radial-gradient(circle at 0% 100%, rgba(255, 255, 255, 0.5), transparent 50%),
+              radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 0.5), transparent 50%);
+      }
+
+
+      .shoe-gallery {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          gap: 20px;
+          text-align: center;
+          margin-bottom: 40px;
+      }
+
+
+      .shoe-gallery img {
+          width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+      }
+
+
+      .shoe-name, .shoe-price {
+          display: block;
+          color: #fff;
+          text-align: center;
+      }
+
+
+      .shoe-name {
+          font-weight: bold;
+          margin-top: 10px;
+      }
+
+
+      .shoe-price {
+          margin-bottom: 10px;
+      }
+
+
+      .navbar {
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+          width: 100%;
+          top: 0;
+          z-index: 1000;
+      }
+
+
+      .navbar a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+      }
+
+
+      .navbar a:hover {
+          background-color: #ddd;
+          color: black;
+      }
+
+
+      header, main, footer {
+          padding: 20px;
+          position: relative;
+      }
+
+
+      header {
+          background-color: #000;
+          color: #fff;
+          padding-top: 50px;
+      }
+
+
+      footer {
+          background-color: #000;
+          color: #fff;
+          text-align: center;
+          padding: 10px 0;
+      }
+
+
+      .video-container {
+          position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+      }
+
+
+      .video-container iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+  </style>
+  <title>Nike Shoes Resale Mecca</title>
+</head>
+<body>
+  <div class="navbar">
+      <a href="#home" class="active">Home</a>
+      <nav>
+        <a href="resume.html"><u>Resume</u></a>
+    </nav>
+  </div>
+
+
+  <header id="home">
+      <h1>High-Tech Nike Reselling Mecca</h1>
+  </header>
+
+
+  <main>
+      <section>
+          <p class="text-white">Official website of reselling Kobe Nike basketball shoes.</p>
+          <div class="shoe-gallery">
+              <!-- Kobe shoes 3 to 7 -->
+              <div>
+                  <img src="https://sneakernews.com/wp-content/uploads/2013/12/nike-kobe-3-prelude-pack.jpg" alt="Kobe 3 Prelude">
+                  <span class="shoe-name">Kobe 3 Prelude</span>
+                  <span class="shoe-price">$350</span>
+              </div>
+              <div>
+                  <img src="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MjAxNjU0MDYyMzE4MzY0MzAz/kobe-sneakers.webp" alt="Kobe 4 Protro">
+                  <span class="shoe-name">Kobe 4 Protro</span>
+                  <span class="shoe-price">$400</span>
+              </div>
+              <div>
+                  <img src="https://i.ebayimg.com/images/g/yiMAAOSw68NjoWV3/s-l640.png" alt="Kobe 5 Protro">
+                  <span class="shoe-name">Kobe 5 Protro</span>
+                  <span class="shoe-price">$450</span>
+              </div>
+              <div>
+                  <img src="https://images.stockx.com/images/Nike-Kobe-6-Protro-Grinch-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1611766717" alt="Kobe 6 Protro Grinch">
+                  <span class="shoe-name">Kobe 6 Protro Grinch</span>
+                  <span class="shoe-price">$500</span>
+              </div>
+              <div>
+                  <img src="https://footwearnews.com/wp-content/uploads/2017/08/kobe-7-fc-barcelona-copy.jpg" alt="Kobe 7 FC Barcelona">
+                  <span class="shoe-name">Kobe 7 FC Barcelona</span>
+                  <span class="shoe-price">$550</span>
+              </div>
+              <!-- Kobe shoes 8 to 12 -->
+              <div>
+                  <img src="https://footwearnews.com/wp-content/uploads/2017/08/kobe-8-all-star-kenlu-copy.jpg" alt="Kobe 8 All Star Kenlu">
+                  <span class="shoe-name">Kobe 8 All Star Kenlu</span>
+                  <span class="shoe-price">$600</span>
+              </div>
+              <div>
+                  <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2014%2F07%2Fa-closer-look-at-the-kobe-9-elite-low-beethoven-1.jpg?cbr=1&q=90" alt="Kobe 9 Elite Low Beethoven">
+                  <span class="shoe-name">Kobe 9 Elite Low Beethoven</span>
+                  <span class="shoe-price">$650</span>
+              </div>
+              <div>
+                  <img src="https://www.kickscrew.com/cdn/shop/products/main-square_a51a26b1-ec0c-43ac-8b71-734242b4f1d2_540x.jpg?v=1696328104" alt="Kobe 10">
+                  <span class="shoe-name">Kobe 10</span>
+                  <span class="shoe-price">$700</span>
+              </div>
+              <div>
+                  <img src="https://img.buzzfeed.com/buzzfeed-static/complex/images/3D-kobe-sneakers-03_jgzbod/nike-kobe-11-3d-release-date.jpg?downsize=1840:*&output-format=auto&output-quality=auto" alt="Kobe 11">
+                  <span class="shoe-name">Kobe 11</span>
+                  <span class="shoe-price">$750</span>
+              </div>
+              <div>
+                  <img src="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MjAxNjU0NDkxMjc4Mjg4NjYw/kobe-emerald.webp" alt="Kobe 12">
+                  <span class="shoe-name">Kobe 12</span>
+                  <span class="shoe-price">$800</span>
+              </div>
+          </div>
+      </section>
+       <!-- Adjusted YouTube iframe size -->
+       <section class="video-container">
+           <iframe width="500" height="291" src="https://www.youtube.com/embed/KlXSt9Wmx88?si=JpJS3Nb-cOeCzCI1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </section>
+
+       <!-- Tableau embed code -->
+       <section>
+           <div class='tableauPlaceholder' id='viz1702588151815' style='position: relative'>
+               <noscript><a href='https://sqlsekou.com'><img alt='Kobe Bryant&#39;s Career Stats' src='https://public.tableau.com/static/images/Ko/KobeBryantSeasonHighPointsPerSeason/KobeBryantsCareerStats/1_rss.png' style='border: none' /></a></noscript>
+               <object class='tableauViz' style='display:none;'>
+                   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                   <param name='embed_code_version' value='3' />
+                   <param name='site_root' value='' />
+                   <param name='name' value='KobeBryantSeasonHighPointsPerSeason/KobeBryantsCareerStats' />
+                   <param name='tabs' value='no' />
+                   <param name='toolbar' value='yes' />
+                   <param name='static_image' value='https://public.tableau.com/static/images/Ko/KobeBryantSeasonHighPointsPerSeason/KobeBryantsCareerStats/1.png' />
+                   <param name='animate_transition' value='yes' />
+                   <param name='display_static_image' value='yes' />
+                   <param name='display_spinner' value='yes' />
+                   <param name='display_overlay' value='yes' />
+                   <param name='display_count' value='yes' />
+                   <param name='language' value='en-US' />
+               </object>
+           </div>
+           <script type='text/javascript'>
+               var divElement = document.getElementById('viz1702588151815');
+               var vizElement = divElement.getElementsByTagName('object')[0];
+               vizElement.style.width='1024px';
+               vizElement.style.height='795px';
+               var scriptElement = document.createElement('script');
+               scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+               vizElement.parentNode.insertBefore(scriptElement, vizElement);
+           </script>
+       </section>
+<section id="Kobes Career Stats">
+          <!-- Content for Career Stats -->
+      </section>
+  </main>
+
+
+  <footer>
+      <!-- Footer Content -->
+  </footer>
+</body>
+</html>
+
+
